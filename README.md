@@ -2,12 +2,12 @@
 
 This repository contains the code I implemented during my internship at the Laboratoire d’Informatique de Grenoble (LIG).
 
+Briefly, the project aims to classify different accents in the French language. My work focused on analyzing the performance of a state-of-the-art model, WhisperX, and implementing an algorithm, ROVER, to combine transcriptions from different models (WhisperX and FrWhisper from HuggingFace) in order to obtain more accurate results.
+
 For privacy reasons, most of the data used during this internship cannot be published. However, one dataset is publicly available: https://cfpr.huma-num.fr/.  
 This dataset must be placed in a folder named `cfpr_audio`.
 
-With the authorization of my supervisor, I am sharing this repository, and below is the project structure and its description.
-
----
+With the authorization of my supervisor, I am sharing this repository. Below is the project structure and its description.---
 
 ### 🔊 `cfpr_audio.../`
 
