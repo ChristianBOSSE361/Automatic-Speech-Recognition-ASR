@@ -43,7 +43,7 @@ os.makedirs(output_folder, exist_ok=True)
 
 batch_size = 64 # modified (was previously 16)
 compute_type = "float32"
-HF_TOKEN = "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"
+HF_TOKEN = "..."
 
 # Supported audio formats
 audio_extensions = ['*.mp3', '*.wav', '*.ogg', '*.flac', '*.m4a']

@@ -19,7 +19,7 @@ model = WhisperForConditionalGeneration.from_pretrained("aihpi/FrWhisper")
 model.to(device)
 
 # === Hugging Face Key (choose a better way after to protect my key) ===
-HF_TOKEN = "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"
+HF_TOKEN = "..."
 
 # === Word by word Alignement (we choose whisperx alignment to have close timestamp) ===
 model_a, metadata = whisperx.load_align_model(
